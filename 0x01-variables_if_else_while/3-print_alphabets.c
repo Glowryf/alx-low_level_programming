@@ -9,13 +9,22 @@
 #include <stdlib.h>
 int main(void)
 {
-	char letter;
+	char m;
+	char v;
 
-	for (letter =  'a'; letter <= 'z'; letter++)
-		putchar(letter);
-	for (letter = 'A'; letter <= 'z'; letter++)
-		putchar(letter);
+	m = 'a';
+	v = 'A';
+
+	while (m <= 'z')
+	{
+		putchar(m);
+		m++;
+	}
+	while (v <= 'Z')
+	{
+		putchar(v);
+		v++;
+	}
 	putchar('\n');
-
 	return (0);
 }
