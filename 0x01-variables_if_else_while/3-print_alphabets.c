@@ -1,5 +1,5 @@
 /**
- * main - Prints the aphabet in lower and upper case.
+ * main - Prints the aphabet in lowercase and then in uppercase.
  *
  * Return: Always 0 (Success)
  *
