@@ -24,7 +24,7 @@ int main(void)
 		c = a + b;
 		if (counter < 98)
 		{
-			printf(", ");
+			printf(",");
 		}
 	}
 	printf("\n");
