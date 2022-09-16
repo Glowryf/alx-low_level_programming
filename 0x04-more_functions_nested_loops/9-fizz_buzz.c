@@ -5,6 +5,7 @@
  * Return: Always 0 (Success)
  */
 #include <stdio.h>
+#include "main.h"
 int main(void)
 {
 	int i;
@@ -25,12 +26,10 @@ int main(void)
 		}
 		else if (i == 1)
 		{
-			printf("%d", i);
+			printf("%i", i);
 		}
-		else
-		{
-			printf("%d", i);
-		}
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
 
