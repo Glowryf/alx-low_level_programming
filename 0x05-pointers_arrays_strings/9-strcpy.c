@@ -1,7 +1,7 @@
 /**
  * _strcpy - a function that copies a string
  * @src: assigned int
- * @des: assigned int
+ * @dest: assigned int
  * Return: dest
  */
 #include "main.h"
